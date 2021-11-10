@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  VIP Billionaires - Social Chat
+
+  Created by SuperDev on 21.05.2020.
+  Copyright © 2020 Eric Schanet. All rights reserved.
+*/
+
+"NSAppleMusicUsageDescription" = "$(PRODUCT_NAME) wants to access your media library to upload photo or video for posting on timeline";
+"NSCameraUsageDescription" = "$(PRODUCT_NAME) wants to use camera to upload photo or video for posting on timeline";
+"NSContactsUsageDescription" = "$(PRODUCT_NAME) wants to get your contacts to invite them for app";
+"NSMicrophoneUsageDescription" = "$(PRODUCT_NAME) wants to access for uploading videos for posting on timeline";
+"NSPhotoLibraryAddUsageDescription" = "$(PRODUCT_NAME) needs permission to write photos for posting on timeline";
+"NSPhotoLibraryUsageDescription" = "$(PRODUCT_NAME) wants to access your photo library to write photos for posting on timeline";

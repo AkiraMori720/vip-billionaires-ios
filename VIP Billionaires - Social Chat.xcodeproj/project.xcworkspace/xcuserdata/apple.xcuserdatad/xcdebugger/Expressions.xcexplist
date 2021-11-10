@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ESPhotoTimelineAccountViewController tableView:heightForRowAtIndexPath:]:ESPhotoTimelineAccountViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellImage">
+            </PersistentString>
+            <PersistentString
+               value = "self.cachedImages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESSignUpViewController tableView:cellForRowAtIndexPath:]:ESSignUpViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFollowersViewController tableView:numberOfRowsInSection:]:ESFollowersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineAccountViewController viewDidLoad]:ESPhotoTimelineAccountViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.safeAreaInsets.top">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFollowersViewController tableView:heightForRowAtIndexPath:]:ESFollowersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.option">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESActivityCell setActivity:]:ESActivityCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.user">
+            </PersistentString>
+            <PersistentString
+               value = "nameString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFollowersViewController objectsDidLoad:]:ESFollowersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.objects">
+            </PersistentString>
+            <PersistentString
+               value = "_user.objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__48-[PFQueryTableViewController loadObjects:clear:]_block_invoke_2:PFQueryTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_mutableObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__45-[ESFindFriendsViewController filterResults:]_block_invoke_2:ESFindFriendsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.searchResults">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate presentTabBarController]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBarController.tabBar.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineViewController tableView:cellForRowAtIndexPath:object:]:ESPhotoTimelineViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.imageView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "cell.imageView.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESConversationViewController loadChatRooms]:ESConversationViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "query">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[JSQMessagesToolbarButtonFactory defaultAccessoryButtonItem]:JSQMessagesToolbarButtonFactory.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "accessoryImage.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineAccountViewController tableView:cellForRowAtIndexPath:object:]:ESPhotoTimelineAccountViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.imageView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFollowersViewController tableView:cellForRowAtIndexPath:object:]:ESFollowersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.option">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFollowersViewController viewDidLoad]:ESFollowersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.searchController.additionalSafeAreaInsets.top">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

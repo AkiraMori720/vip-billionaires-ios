@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Provide a group name and group icon"; ObjectID = "TCt-gB-tpc"; */
+"TCt-gB-tpc.text" = "グループ名とグループアイコンを提供する";
+
+/* Class = "UITextField"; placeholder = "Type Group Name"; ObjectID = "WS4-r4-Ft8"; */
+"WS4-r4-Ft8.placeholder" = "グループ名を入力してください";

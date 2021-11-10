@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  VIP Billionaires - Social Chat
+
+  Created by SuperDev on 21.05.2020.
+  Copyright © 2020 Eric Schanet. All rights reserved.
+*/
+
+"NSAppleMusicUsageDescription" = "VIP Billionaires はこれにより、ライブラリの写真や動画をタイムライン にシェアすることができます";
+"NSCameraUsageDescription" = "VIP Billionairesはこれにより動画をタイムラインに使用することができます";
+"NSContactsUsageDescription" = "VIP Billionairesは、あなたの連絡先にアプリへの招待を求めています";
+"NSMicrophoneUsageDescription" = "VIP Billionaires はこれにより、動画をタイムライン にシェアすることができます";
+"NSPhotoLibraryAddUsageDescription" = "VIP Billionaires はタイムライン に投稿するために写真の書き込み許可が必要です";
+"NSPhotoLibraryUsageDescription" = "VIP Billionaires はライブラリにアクセスしてタイムライン に投稿する写真を書き込もうとしています";
+"NSLocationWhenInUseUsageDescription" = "VIP Billionairesは、現在地を投稿するために、現在地を取得しようとしています";

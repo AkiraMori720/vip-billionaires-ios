@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__44-[ESFindFriendsViewController queryForTable]_block_invoke_2:ESFindFriendsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "object[@&quot;toUser&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESVideoTableViewCell tapPlay]:ESVideoTableViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.movie.view.hidden">
+            </PersistentString>
+            <PersistentString
+               value = "self.movie.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineViewController tableView:heightForRowAtIndexPath:]:ESPhotoTimelineViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "cellImage.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineAccountViewController tableView:heightForRowAtIndexPath:]:ESPhotoTimelineAccountViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ratio">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.bounds.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__74-[ESTabBarController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke:ESTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[info objectForKey:UIImagePickerControllerEditedImage]">
+            </PersistentString>
+            <PersistentString
+               value = "image.size">
+            </PersistentString>
+            <PersistentString
+               value = "info[UIImagePickerControllerReferenceURL]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESEditProfileViewController saveInformation]:ESEditProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[PFUser currentUser] objectForKey:@&quot;usernameFix&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESEditVedioViewController shouldUploadImage:]:ESEditVedioViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "anImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESVideoDetailsHeaderView setLikeUsers:]:ESVideoDetailsHeaderView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photographer">
+            </PersistentString>
+            <PersistentString
+               value = "self.likeUsers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PFQueryTableViewController tableView:cellForRowAtIndexPath:]:PFQueryTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__45-[ESFindFriendsViewController filterResults:]_block_invoke:ESFindFriendsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ESPhotoTimelineViewController tableView:cellForRowAtIndexPath:object:]:ESPhotoTimelineViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.movie">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ESFindFriendsViewController tableView:cellForRowAtIndexPath:object:]:ESFindFriendsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.objects">
+            </PersistentString>
+            <PersistentString
+               value = "self.followingMeUsers">
+            </PersistentString>
+            <PersistentString
+               value = "object.objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__72-[ESPhotoTimelineViewController tableView:cellForRowAtIndexPath:object:]_block_invoke:ESPhotoTimelineViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "object.objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[JSQMessagesViewController collectionView:cellForItemAtIndexPath:]:JSQMessagesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[messageItem text]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

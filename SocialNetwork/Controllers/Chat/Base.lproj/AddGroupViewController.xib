@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddGroupViewController">
+            <connections>
+                <outlet property="btnGroupIcon" destination="C2q-2Q-4f5" id="lAp-cv-BGG"/>
+                <outlet property="groupAddView" destination="hNL-9Z-0pd" id="8wz-Qb-7bJ"/>
+                <outlet property="imgView" destination="EZw-5Z-m2m" id="ri3-l6-yf3"/>
+                <outlet property="txtGroupName" destination="WS4-r4-Ft8" id="yet-yI-3LK"/>
+                <outlet property="view" destination="a9R-Ii-nfL" id="5GO-XA-dPf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="a9R-Ii-nfL">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNL-9Z-0pd">
+                    <rect key="frame" x="28" y="118" width="319" height="164"/>
+                    <subviews>
+                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="EZw-5Z-m2m">
+                            <rect key="frame" x="16" y="20" width="75" height="75"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="75" id="6YD-lu-H4i"/>
+                                <constraint firstAttribute="width" constant="75" id="7Zx-qO-ky4"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2q-2Q-4f5">
+                            <rect key="frame" x="16" y="20" width="75" height="75"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="btnGroupIconAction:" destination="-1" eventType="touchUpInside" id="ING-zt-kSH"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type Group Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WS4-r4-Ft8">
+                            <rect key="frame" x="100" y="40" width="204" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="eV7-Yc-4QU"/>
+                            </connections>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-P9-WSd">
+                            <rect key="frame" x="100" y="71" width="204" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Provide a group name and group icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCt-gB-tpc">
+                            <rect key="frame" x="16" y="105" width="287" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="EZw-5Z-m2m" firstAttribute="leading" secondItem="hNL-9Z-0pd" secondAttribute="leading" constant="16" id="6jH-wu-IBp"/>
+                        <constraint firstAttribute="width" constant="319" id="Vmu-6d-WXX"/>
+                        <constraint firstAttribute="height" constant="164" id="osX-ip-T9q"/>
+                        <constraint firstItem="EZw-5Z-m2m" firstAttribute="top" secondItem="hNL-9Z-0pd" secondAttribute="top" constant="20" id="qPx-4H-c6H"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hNL-9Z-0pd" firstAttribute="centerY" secondItem="a9R-Ii-nfL" secondAttribute="centerY" constant="-133.5" id="Mkz-fv-3ta"/>
+                <constraint firstItem="hNL-9Z-0pd" firstAttribute="centerX" secondItem="a9R-Ii-nfL" secondAttribute="centerX" id="NG2-K7-jup"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="YTv-bO-xac"/>
+            <point key="canvasLocation" x="107" y="-81"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="group_placeholder" width="182" height="182"/>
+    </resources>
+</document>

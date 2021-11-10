@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupmemberview" id="KGk-i7-Jjw" customClass="GroupMemberTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AvatarPlaceholderProfile.png" translatesAutoresizingMaskIntoConstraints="NO" id="xcG-nL-eOW" customClass="PFImageView">
+                        <rect key="frame" x="9" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="GDS-L4-ENd"/>
+                            <constraint firstAttribute="height" constant="50" id="h6E-DS-Y86"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdy-C8-uaG">
+                        <rect key="frame" x="73" y="21" width="223" height="18.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDI-b3-Pkx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="60.5"/>
+                        <connections>
+                            <action selector="btnMemberPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="R8F-HV-SxX"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gdy-C8-uaG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="A2J-Bu-NOr"/>
+                    <constraint firstAttribute="trailing" secondItem="Gdy-C8-uaG" secondAttribute="trailing" constant="24" id="BKu-qR-xTM"/>
+                    <constraint firstAttribute="bottom" secondItem="Gdy-C8-uaG" secondAttribute="bottom" constant="20.5" id="GkI-ET-6dS"/>
+                    <constraint firstItem="Gdy-C8-uaG" firstAttribute="leading" secondItem="xcG-nL-eOW" secondAttribute="trailing" constant="14" id="J4n-ad-KQh"/>
+                    <constraint firstItem="zDI-b3-Pkx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="OjS-Wx-AwQ"/>
+                    <constraint firstAttribute="trailing" secondItem="zDI-b3-Pkx" secondAttribute="trailing" id="WkC-z2-aXY"/>
+                    <constraint firstItem="zDI-b3-Pkx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eVC-wW-dls"/>
+                    <constraint firstItem="xcG-nL-eOW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="hCg-rZ-Yoi"/>
+                    <constraint firstItem="xcG-nL-eOW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="rC5-a8-qKb"/>
+                    <constraint firstAttribute="bottom" secondItem="zDI-b3-Pkx" secondAttribute="bottom" constant="-0.5" id="vQH-7W-GcW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="btnMember" destination="zDI-b3-Pkx" id="mC3-ec-hNL"/>
+                <outlet property="imgUser" destination="xcG-nL-eOW" id="9p9-6s-Dfj"/>
+                <outlet property="lblUserName" destination="Gdy-C8-uaG" id="GqN-IM-U4c"/>
+            </connections>
+            <point key="canvasLocation" x="-365" y="-206"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AvatarPlaceholderProfile.png" width="16" height="16"/>
+    </resources>
+</document>
